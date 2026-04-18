@@ -5,13 +5,14 @@ export const metadata = {
   title: 'PoshanPoint - Daily Poshan, Better Performance',
   description: 'Order fresh smoothie bowls, protein shakes, juices & healthy fitness food right from your phone. PoshanPoint - Fitness Food.',
   manifest: '/manifest.json',
+};
+
+export const viewport = {
   themeColor: '#4CAF50',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({ children }) {
