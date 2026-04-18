@@ -94,7 +94,7 @@ Already done for this project at:
 Required:
 - `NODE_ENV=production`
 - `PORT=10000` (or leave Render default)
-- `MONGO_URI=<your atlas uri>`
+- `MONGO_URI=mongodb+srv://<username>:<urlencoded_password>@<cluster-host>/poshanpoint?retryWrites=true&w=majority&appName=Cluster0`
 - `USE_IN_MEMORY_DB=false`
 - `SEED_ON_STARTUP=false`
 - `JWT_SECRET=<strong-random-secret>`
